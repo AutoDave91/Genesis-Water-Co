@@ -24,6 +24,28 @@ const openSans = Open_Sans({
 export const metadata = {
   title: "Genesis Water Company",
   description: "At Genesis Water Company we are elevating process innovation while conserving resources for a healthier and more sustainable future.",
+  openGraph: {
+    title: 'Genesis Water Co',
+    description: 'Pure Water, Pure Innovation',
+    url: 'https://genesiswaterco.com/',
+    siteName: 'Genesis Water Co',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Genesis Water Co Logo',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Genesis Water Co',
+    description: 'Pure Water, Pure Innovation',
+    images: ['/og-image.jpg'],
+  },
 };
 
 export default function RootLayout({ children }) {
