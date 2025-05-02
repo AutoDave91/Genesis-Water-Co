@@ -36,7 +36,7 @@ export default function Home() {
           </p>
         </section>
         <section>
-          <h2 className="text-2xl font-semibold mb-2">We offer:</h2>
+          <h2 className="text-2xl font-semibold mb-2">We Offer:</h2>
           <ul className="list-disc list-inside space-y-3">
             <li className="flex items-center gap-3">
               <FontAwesomeIcon icon={faDroplet} className="accentBlue mt-1" />
@@ -68,7 +68,6 @@ export default function Home() {
         <p>
           <a href="mailto:ccoe@genesiswaterco.com" className="text-stone-700 hover:underline">ccoe@genesiswaterco.com</a>
         </p>
-        <p>Melissa, TX</p>
       </footer>
     </div>
   );
