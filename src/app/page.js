@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center w-full h-[500px]"
+        className="relative bg-cover bg-center w-full h-[300px] sm:h-[400px] md:h-[500px]"
       >
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <div className="relative w-full max-w-[800px] mx-auto aspect-[5/2]">
