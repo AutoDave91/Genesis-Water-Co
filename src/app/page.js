@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center w-full h-[300px] sm:h-[400px] md:h-[500px]"
+        className="relative bg-cover bg-center w-full h-[300px] sm:h-[400px] md:h-[400px]"
       >
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <div className="relative w-full max-w-[800px] mx-auto aspect-[5/2]">
@@ -25,7 +25,7 @@ export default function Home() {
       </section>
 
       {/* Main Content */}
-      <main className="flex-grow px-6 py-12 max-w-4xl mx-auto space-y-8">
+      <main className="flex-grow px-6 max-w-4xl mx-auto space-y-8">
         <header className="text-center">
           <h1 className="hidden">Genesis Water Co</h1>
           <h2 className="text-2xl font-semibold">About Us</h2>
@@ -53,7 +53,7 @@ export default function Home() {
           </ul>
         </section>
         <section>
-          <p className="mt-4 text-2xl font-semibold font-display text-stone-700 text-center">
+          <p className="text-2xl font-semibold font-display text-stone-700 text-center">
             Over 20 Years of Water Industry Experience
           </p>
         </section>
