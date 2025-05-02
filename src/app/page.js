@@ -8,7 +8,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative bg-cover bg-center w-full h-[300px] sm:h-[400px] md:h-[500px]"
+        className="relative bg-cover bg-center w-full h-[300px] sm:h-[400px] md:h-[400px]"
       >
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <div className="relative w-full max-w-[800px] mx-auto aspect-[5/2]">
@@ -25,12 +25,12 @@ export default function Home() {
       </section>
 
       {/* Main Content */}
-      <main className="flex-grow px-6 py-12 max-w-4xl mx-auto space-y-8">
-        <header className="text-center">
+      <main className="flex-grow px-6 max-w-4xl mx-auto space-y-8">
+        <header className="hidden text-center">
           <h1 className="hidden">Genesis Water Co</h1>
-          <h2 className="text-2xl font-semibold">About Us</h2>
         </header>
         <section>
+          <h2 className="text-2xl font-semibold text-center">About Us</h2>
           <p className="text-lg font-body text-stone-700 text-center">
             At Genesis Water Company we provide process innovation while conserving resources for a more healthy and sustainable future.
           </p>
@@ -53,14 +53,14 @@ export default function Home() {
           </ul>
         </section>
         <section>
-          <p className="mt-4 text-2xl font-semibold font-display text-stone-700 text-center">
+          <p className="text-2xl font-semibold font-display text-stone-700 text-center">
             Over 20 Years of Water Industry Experience
           </p>
         </section>
       </main>
       {/* Footer */}
       <footer className="py-8 px-6 text-center text-stone-800">
-        <h2 className="text-2xl font-semibold mb-2">Contact Info:</h2>
+        <h2 className="text-2xl font-semibold mb-2 text-stone-700">Contact Info:</h2>
         <p>Clayton Coe</p>
         <p>
           <a href="tel:9035052170" className="text-stone-700 hover:underline">903.505.2170</a>
