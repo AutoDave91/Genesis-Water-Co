@@ -26,11 +26,11 @@ export default function Home() {
 
       {/* Main Content */}
       <main className="flex-grow px-6 max-w-4xl mx-auto space-y-8">
-        <header className="text-center">
+        <header className="hidden text-center">
           <h1 className="hidden">Genesis Water Co</h1>
-          <h2 className="text-2xl font-semibold">About Us</h2>
         </header>
         <section>
+          <h2 className="text-2xl font-semibold text-center">About Us</h2>
           <p className="text-lg font-body text-stone-700 text-center">
             At Genesis Water Company we provide process innovation while conserving resources for a more healthy and sustainable future.
           </p>
@@ -60,7 +60,7 @@ export default function Home() {
       </main>
       {/* Footer */}
       <footer className="py-8 px-6 text-center text-stone-800">
-        <h2 className="text-2xl font-semibold mb-2">Contact Info:</h2>
+        <h2 className="text-2xl font-semibold mb-2 text-stone-700">Contact Info:</h2>
         <p>Clayton Coe</p>
         <p>
           <a href="tel:9035052170" className="text-stone-700 hover:underline">903.505.2170</a>
