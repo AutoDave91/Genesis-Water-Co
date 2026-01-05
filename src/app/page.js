@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import logo from '../../public/Genesis_blue-and-transparent-background_banner-logo-1200w.png';
+import newLogo from '../../public/basic-logo-square.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDroplet } from '@fortawesome/free-solid-svg-icons';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default function Home() {
   return (
@@ -13,8 +15,8 @@ export default function Home() {
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
           <div className="relative w-full max-w-[800px] mx-auto aspect-[5/2]">
             <Image
-              src={logo}
-              alt="Genesis Water Co Rooster"
+              src={newLogo}
+              alt="Genesis Water Co Logo"
               fill
               className="object-contain"
               sizes="(max-width: 640px) 90vw, 800px"
@@ -37,24 +39,24 @@ export default function Home() {
         </section>
         <section>
           <h2 className="text-2xl font-semibold mb-2">We Offer:</h2>
-          <ul className="list-disc list-inside space-y-3">
+          <ul className="list-disc list-outside md:list-inside space-y-3">
             <li className="flex items-center gap-3">
-              <FontAwesomeIcon icon={faDroplet} className="accentBlue mt-1" />
+              <FontAwesomeIcon icon={faCircle} className="accentBlue mt-1 text-[8px]" />
               <p className='text-lg font-medium'>Innovative Technology</p>
             </li>
             <li className="flex items-center gap-3">
-              <FontAwesomeIcon icon={faDroplet} className="accentBlue mt-1" />
+              <FontAwesomeIcon icon={faCircle} className="accentBlue mt-1 text-[8px]" />
               <p className='text-lg font-medium'>Process Expertise</p>
             </li>
             <li className="flex items-center gap-3">
-              <FontAwesomeIcon icon={faDroplet} className="accentBlue mt-1" />
+              <FontAwesomeIcon icon={faCircle} className="accentBlue mt-1 text-[8px]" />
               <p className='text-lg font-medium'>Solution Design</p>
             </li>
           </ul>
         </section>
         <section>
           <p className="text-2xl font-semibold font-display text-stone-700 text-center">
-            Over 20 Years of Water Industry Experience
+            Over 20 Years of Water Process Expertise
           </p>
         </section>
       </main>

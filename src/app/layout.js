@@ -31,7 +31,7 @@ export const metadata = {
     siteName: 'Genesis Water Co',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/basic-logo-square.png',
         width: 1200,
         height: 630,
         alt: 'Genesis Water Co Logo',
@@ -44,7 +44,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Genesis Water Co',
     description: 'Pure Water, Pure Innovation',
-    images: ['/og-image.jpg'],
+    images: ['/basic-logo-square.png'],
   },
 };
 
@@ -63,8 +63,8 @@ export default function RootLayout({ children }) {
               "description":
                 "Genesis Water Company elevates process innovation while conserving resources for a healthier and more sustainable future.",
               "url": "https://www.genesiswaterco.com/",
-              "logo": "https://www.genesiswaterco.com/logo.png",
-              "image": "https://www.genesiswaterco.com/og-image.jpg",
+              "logo": "https://www.genesiswaterco.com/basic-logo-square.png",
+              "image": "https://www.genesiswaterco.com/basic-logo-square.png",
               "telephone": "+1-903-505-2170",
               "email": "ccoe@genesiswaterco.com",
               "address": {
@@ -132,7 +132,7 @@ export default function RootLayout({ children }) {
               "@type": "Organization",
               "name": "Genesis Water Co",
               "url": "https://www.genesiswaterco.com",
-              "logo": "https://www.genesiswaterco.com/og-image.jpg",
+              "logo": "https://www.genesiswaterco.com/basic-logo-square.png",
               "description": "At Genesis Water Company we are elevating process innovation while conserving resources for a healthier and more sustainable future.",
               "address": {
                 "@type": "PostalAddress",
